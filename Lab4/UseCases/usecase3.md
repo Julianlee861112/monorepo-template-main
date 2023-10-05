@@ -6,35 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: _clear content_
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: _User_
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: _Pressing the space key will clear the entire canvas._
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: _N/A_
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: _An user pressed the space key_
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario**: _An User pressed the space key, then the canvas would be filled with the last color selected_
 
-**When available**: *the targeted release that covers this use case*
+**Exceptions**: _The canvas is not set properly. The screen should remain the same content before user press the space key._
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Priority**: _Low priority_
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**When available**: _Test first then release_
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channel to actor**: _The primary actor communicates through I/O devices. This includes the keyboard. The system is responsible for maintaining focus of the window when the user clicks, and should respond within 1 second of any keyboard event. The user is responsible for all other input._
 
-**Open Issues**: *notes, concerns, or other materials*
+**Secondary Actor**: _N/A_
+
+**Channels to Secondary Actors**: _N/A_
+
+**Open Issues**: _A warning should be add before the canvas is cleared_
 
 <hr>
-
-
 
 (adapted by Pressman and Maxim, Software Engineering: A Practitioner’s Approach, pp. 151-152, from Cockburn,
 A., Writing Effective Use-Cases, Addison-Wesley, 2001)

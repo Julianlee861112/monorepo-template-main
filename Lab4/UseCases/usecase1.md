@@ -6,35 +6,33 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: _Setting window and drawable canvas to 600x400_
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: _user_
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: _To set window and drawable canvas to 600x400_
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: _There is a window opened._
 
-**Trigger**: *an action or actions that initiate the scenario*
-  
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
- 
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Trigger**: _Pressing an button in the window/ A Shorcut of keyboard input_
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Scenario**: _An user clicked the button, then the window size is set to 600x400_
 
-**When available**: *the targeted release that covers this use case*
+**Exceptions**: _The window is closed or not well-sized._
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Priority**: _Mid-priority_
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**When available**: _First release_
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channel to actor**: _The primary actor communicates through I/O devices. This includes the keyboard and the mouse. The system is responsible for maintaining focus of the window when the user clicks, and should respond within 1 second of any keyboard event. The user is responsible for all other input._
 
-**Open Issues**: *notes, concerns, or other materials*
+**Secondary Actor**: _N/A_
+
+**Channels to Secondary Actors**: _N/A_
+
+**Open Issues**: _The window might overflow if the screen size is too small._
 
 <hr>
-
-
 
 (adapted by Pressman and Maxim, Software Engineering: A Practitioner’s Approach, pp. 151-152, from Cockburn,
 A., Writing Effective Use-Cases, Addison-Wesley, 2001)
